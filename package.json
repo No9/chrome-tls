@@ -1,0 +1,29 @@
+{
+  "name": "chrome-tls",
+  "version": "1.0.0",
+  "description": "Use the Node `tls` API in Chrome Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && browserify test/chrome-app/index.js -o test/chrome-app/bundle.js && node test/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No9/chrome-tls.git"
+  },
+  "keywords": [
+    "chrome",
+    "app",
+    "chromiumify",
+    "browserify-tool"
+  ],
+  "author": "anton whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/chrome-tls/issues"
+  },
+  "homepage": "https://github.com/No9/chrome-tls#readme",
+  "devDependencies": {
+    "launch-chrome-app": "^1.0.1",
+    "tape": "^4.0.1"
+  }
+}
